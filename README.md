@@ -46,7 +46,7 @@ NG Pattern
     login_account = yourLoginId  
     login_password = yourLoginPassword
     
-## execute python
+## execute this command
 
     python MyCase.py MyTestCase.test_something
 
