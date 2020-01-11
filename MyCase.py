@@ -33,7 +33,7 @@ class MyTestCase(unittest.TestCase):
         # opts.add_argument('--headless')
         opts.add_argument('--disable-gpu')
         opts.add_argument('--no-sandbox')
-        self.driver = webdriver.Chrome(executable_path=os.path.abspath("chromedriver"), chrome_options=opts)
+        self.driver = webdriver.Chrome(executable_path=os.path.abspath("chromedriver.exe"), chrome_options=opts)
         # self.driver = webdriver.Chrome(executable_path="/c/Users/kazuh/bin/chromedriver", chrome_options=opts)
 
     def test_something(self):
